@@ -1,3 +1,5 @@
+
+
 Classful Network >>
 
 # Class A: (0.0.0.0 – 127.255.255.255)
@@ -34,3 +36,5 @@ Classful Network >>
 # Class E: (240.0.0.0 – 255.255.255.255)
 ❖ Total addresses = 16x256x256x256 = 268,435,456
 ❖ Uses Purpose = Research
+
+
