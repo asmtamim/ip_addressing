@@ -1,4 +1,6 @@
-IP Addressing: 
+
+
+### IP Addressing: 
 An IP address is a decimal number that defines the routing information of the Internet user. It is a
 logical address and it is changeable according to the needs. 
 
@@ -24,3 +26,5 @@ has source address and destination address. IPv4 is 32 bits of those addresses.
 1. Network Address: A total network is defined by a network address.
 2. Broadcast Address: Broadcast address is the address by which every connected host of a network can be communicated.
 3. Host Address: Every host needs its own address to communicate through the network.
+
+
