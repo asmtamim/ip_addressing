@@ -1,3 +1,5 @@
+
+
 • Loopback Address: 
 An address that sends outgoing signals back to the same computer for testing. 
 In a TCP/IP network, the loopback IP address is 127.0.0.1, and pinging this address will always return a reply unless the firewall prevents it. 
@@ -24,4 +26,5 @@ are the network bit and how much are the host bit. By prefix one can understand 
 For example >> 10.0.0.1/24 defines that it’s a class C network. Also the first 24 bits are network bit, and other 8 bits are host bit.
 Also >> 192.50.128.0/17 defines the first 17 bits of the IP address to identify the address aggregation (network bit). 
 The remaining 15 bits may be either sub-aggregated or assigned to devices within the network that owns the prefix.
+
 
