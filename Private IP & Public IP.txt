@@ -1,37 +1,20 @@
 • Loopback Address: 
 An address that sends outgoing signals back to the same computer for testing. 
-In a TCP/IP network, the loopback IP address is 127.0.0.1, and pinging this address will
-always return a reply unless the firewall prevents it. The loopback address allows a network
-administrator to treat the local machine as if it were a remote machine. Used for TCP/IP
-configuration. 
+In a TCP/IP network, the loopback IP address is 127.0.0.1, and pinging this address will always return a reply unless the firewall prevents it. 
+The loopback address allows a network administrator to treat the local machine as if it were a remote machine. Used for TCP/IP configuration. 
 
 • Link-Local Address: 
-An IP address in the range from 169.254.1.0 to 169.254.254.255. It is used
-to automatically assign an IP address to a device in an IP network when there is no other
-assignment method available, such as a DHCP (Dynamic Host Configuration Protocol) server.
+An IP address in the range from 169.254.1.0 to 169.254.254.255. It is used to automatically assign an IP address to a device in an IP network when there is no other assignment method available, such as a DHCP (Dynamic Host Configuration Protocol) server.
 
 • Public IP Address: 
-A public IP address is the public global address that is used to access the
-Internet. Public (global) IP addresses are routed on the Internet and unlike private addresses it
-has to be bought. The presence of a public IP address on your router or computer will allow you
-to organize your own server (VPN, FTP, WEB, etc.), remote access to your computer, video
-surveillance cameras, and access them from anywhere in the global network.
+A public IP address is the public global address that is used to access the Internet. Public (global) IP addresses are routed on the Internet and unlike private addresses it has to be bought. The presence of a public IP address on your router or computer will allow you to organize your own server (VPN, FTP, WEB, etc.), remote access to your computer, video surveillance cameras, and access them from anywhere in the global network.
 
 • Private IP Address: 
-Any IP address that fall specified ranges is a private IP address and is nonroutable on the Internet. 
-These addresses are reserved for use only within private/corporate network and cannot be seen outside the private networks. 
-These private addresses are translated at the company's firewall into an external (public) IP address, 
-which will be some address that does 'not' fall within these ranges.
+Any IP address that fall specified ranges is a private IP address and is nonroutable on the Internet. These addresses are reserved for use only within private/corporate network and cannot be seen outside the private networks. These private addresses are translated at the company's firewall into an external (public) IP address, which will be some address that does 'not' fall within these ranges.
 
 • Network Prefix: 
-In IPv4 network prefix determines whether it is a classful network, or a
-classless network by letting us know how much of the 32 bits are the network bit and how
-much are the host bit. By prefix one can understand the IP’s class. It’s also very helpful during
-subnetting. 
+In IPv4 network prefix determines whether it is a classful network, or a classless network by letting us know how much of the 32 bits are the network bit and how much are the host bit. By prefix one can understand the IP’s class. It’s also very helpful during subnetting. 
 
-For example >> 10.0.0.1/24 defines that it’s a class C network. Also the first 24 bits are network bit, and
-other 8 bits are host bit.
-Also >> 192.50.128.0/17 defines the first 17 bits of the IP address to identify the address
-aggregation (network bit). The remaining 15 bits may be either sub-aggregated or
-assigned to devices within the network that owns the prefix.
+For example >> 10.0.0.1/24 defines that it’s a class C network. Also the first 24 bits are network bit, and other 8 bits are host bit.
+Also >> 192.50.128.0/17 defines the first 17 bits of the IP address to identify the address aggregation (network bit). The remaining 15 bits may be either sub-aggregated or assigned to devices within the network that owns the prefix.
 
