@@ -1,0 +1,26 @@
+IP Addressing: 
+An IP address is a decimal number that defines the routing information of the Internet user. It is a
+logical address and it is changeable according to the needs. 
+
+There are 2 version of IP Address right now
+1. IPv4 (version 4), which is widely used!
+2. IPv6 (version 6) 
+
+Every End-device of a network has a unique address or identity. In Network layer each packet of data
+has source address and destination address. IPv4 is 32 bits of those addresses.
+
+➢ 4 octet: 4 x 8 bits = 32 bits
+➢ Size: 2^32 = 4294967296 (total IP addresses)
+➢ Can be described as Binary, Decimal and Hexadecimal
+➢ 5 classes: A (0-127), B (128-191), C (192-223), D (224-239), E (240-255)
+➢ Range of 1 octet: 2^8 = 256 (0-255)
+➢ 2 parts: Network octet (Unchangeable), Host octet (Changeable)
+
+➢ There are 2 addresses not for host use in every Class-
+• Network ID (1st address)
+• Broadcast ID (Last address)
+
+# 3 Types of Addresses:
+1. Network Address: A total network is defined by a network address.
+2. Broadcast Address: Broadcast address is the address by which every connected host of a network can be communicated.
+3. Host Address: Every host needs its own address to communicate through the network.
