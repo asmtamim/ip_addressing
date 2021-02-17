@@ -2,27 +2,27 @@
 
 Classful Network >>
 
-# Class A: (0.0.0.0 – 127.255.255.255)
+# Class A: (0.0.0.0 – 127.255.255.255) (N.H.H.H)
 ❖ Total addresses = 128x256x256x256 = 2,147,483,648
-❖ Network bit = 1st octet (8 bit)
+❖ Network bit = 1st octet (8 bit) [27 – 2 = 126] 
 ❖ Host bit = 2nd, 3rd, 4th (24 bit)
 ❖ Valid Host = 2^24 – 2 (Minus Network ID & Broadcast ID)
 ❖ Reserve hosts = 0.0.0.0 (Default route) & 127.0.0.0 (LAN card)
 ❖ Private IP range = 10.0.0.0 – 10.255.255.255
 ❖ Subnet Mask = 255.0.0.0 (default) (Network bit ON, Host bit OFF)
 
-# Class B: (128.0.0.0 – 191.255.255.255)
+# Class B: (128.0.0.0 – 191.255.255.255) (N.N.H.H)
 ❖ Total addresses = 64x256x256x256 = 1,073,741,824
-❖ Network bit = 1st, 2nd octet (16 bit)
+❖ Network bit = 1st, 2nd octet (16 bit) [214 = 16,384]
 ❖ Host bit = 3rd, 4th (16 bit)
 ❖ Valid Host = 2^16 – 2 (Minus Network ID & Broadcast ID)
 ❖ Reserve hosts = 169.0.0.0 (DHCP- Dynamic Host Configuration Protocol)
 ❖ Private IP range = 172.16.0.0 – 172.31.255.255
 ❖ Subnet Mask = 255.255.0.0 (default) (Network bit ON, Host bit OFF)
 
-# Class C: (192.0.0.0 – 223.255.255.255)
+# Class C: (192.0.0.0 – 223.255.255.255) (N.N.N.H)
 ❖ Total addresses = 32x256x256x256 = 536,870,912
-❖ Network bit = 1st, 2nd, 3rd octet (24 bit)
+❖ Network bit = 1st, 2nd, 3rd octet (24 bit) [221 = 20,97,152]
 ❖ Host bit = 4th (8 bit)
 ❖ Valid Host = 2^8 – 2 (Minus Network ID & Broadcast ID)
 ❖ Reserve hosts = No reserve
