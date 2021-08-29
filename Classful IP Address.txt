@@ -2,7 +2,7 @@
 
 Classful Network >>
 
-# Class A: (0.0.0.0 – 127.255.255.255) (N.H.H.H)
+# Class A: (0 – 127) (N.H.H.H)
 ❖ Total addresses = 128x256x256x256 = 2,147,483,648
 ❖ Network bit = 1st octet (8 bit) [2^7 – 2 = 126] 
 ❖ Host bit = 2nd, 3rd, 4th (24 bit)
@@ -11,7 +11,7 @@ Classful Network >>
 ❖ Private IP range = 10.0.0.0 – 10.255.255.255
 ❖ Subnet Mask = 255.0.0.0 (default) (Network bit ON, Host bit OFF)
 
-# Class B: (128.0.0.0 – 191.255.255.255) (N.N.H.H)
+# Class B: (128 – 191) (N.N.H.H)
 ❖ Total addresses = 64x256x256x256 = 1,073,741,824
 ❖ Network bit = 1st, 2nd octet (16 bit) [2^14 = 16,384]
 ❖ Host bit = 3rd, 4th (16 bit)
@@ -20,7 +20,7 @@ Classful Network >>
 ❖ Private IP range = 172.16.0.0 – 172.31.255.255
 ❖ Subnet Mask = 255.255.0.0 (default) (Network bit ON, Host bit OFF)
 
-# Class C: (192.0.0.0 – 223.255.255.255) (N.N.N.H)
+# Class C: (192 – 223) (N.N.N.H)
 ❖ Total addresses = 32x256x256x256 = 536,870,912
 ❖ Network bit = 1st, 2nd, 3rd octet (24 bit) [2^21 = 20,97,152]
 ❖ Host bit = 4th (8 bit)
@@ -29,11 +29,11 @@ Classful Network >>
 ❖ Private IP range = 192.168.0.0 – 192.168.255.255
 ❖ Subnet Mask = 255.255.255.0 (default) (Network bit ON, Host bit OFF)
 
-# Class D: (224.0.0.0 – 239.255.255.255)
+# Class D: (224 – 239)
 ❖ Total addresses = 16x256x256x256 = 268,435,456
 ❖ Uses Purpose = Multicast
 
-# Class E: (240.0.0.0 – 255.255.255.255)
+# Class E: (240 – 255)
 ❖ Total addresses = 16x256x256x256 = 268,435,456
 ❖ Uses Purpose = Research
 
